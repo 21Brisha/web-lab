@@ -1,0 +1,124 @@
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background-color:grey;
+    padding:10px 20px;
+}
+.nav-links{
+    list-style:none;
+    display:flex;
+    gap:20px
+}
+.nav-links li a{
+    color:white;
+    text-decoration:none;
+    font-size:16px;
+}
+.nav-links li a:hover{
+    color:300bfff;
+}
+.nav-links li a:hover{
+    color:blue;
+}
+.nav-links li a hover{
+    color:blue;
+}
+.home section{
+    padding:40px 10%;
+    display:flex;
+    justify-content:center;
+}
+.home content{
+    display:flex;
+    gap:40px;
+    align-items:center;
+}
+.home-image img{
+    width:350px;
+    height:auto;
+    border-radius:10px;
+}
+.home-intro h1{
+    font-size:32px;
+    margin-bottom:10px;
+}
+.home-intro p {
+font-size:18px;
+line-height:1.5;
+margin-bottom: 20px;
+}
+.home-btn{
+    padding: 10px 20px;
+    background-color: grey;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.home-btn:hover{
+    background-color:blue;
+}
+
+/* ===== Calendar Styles ===== */
+
+.calendar-container {
+    width: 350px;
+    background: white;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header button {
+    background: #007BFF;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#monthYear {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.days, .dates {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    text-align: center;
+}
+
+.days div {
+    font-weight: bold;
+    margin: 10px 0;
+    color: #555;
+}
+
+.dates div {
+    padding: 10px;
+    margin: 2px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.dates div:hover {
+    background: #007BFF;
+    color: white;
+}
+
+.today {
+    background: #007BFF;
+    color: white;
+}
+
+.empty {
+    visibility: hidden;
+}
